@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WhatsApp Translator</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 10px;
+        width: 200px; /* Set a fixed width for better layout */
+      }
+      label,
+      select,
+      button {
+        margin: 5px 0;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>WhatsApp Translator</h2>
+    <label for="inputLang">Your language:</label>
+    <select id="inputLang">
+      <option value="en">English</option>
+      <option value="es">Spanish</option>
+      <option value="fr">French</option>
+      <option value="de">German</option>
+      <option value="zh">Chinese</option>
+      <option value="hi">Hindi</option>
+      <!-- Add more languages as needed -->
+    </select>
+
+    <label for="outputLang">Contact's language:</label>
+    <select id="outputLang">
+      <option value="en">English</option>
+      <option value="es">Spanish</option>
+      <option value="fr">French</option>
+      <option value="de">German</option>
+      <option value="zh">Chinese</option>
+      <option value="hi">Hindi</option>
+      <!-- Add more languages as needed -->
+    </select>
+
+    <button id="saveBtn">Save Preferences</button>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
